@@ -1,0 +1,54 @@
+body {
+    font-family: Comic Sans MS, sans-serif;
+    background-color: rgb(255, 211, 144);
+}
+        
+.secondBody {
+    display: flex;
+    }
+
+.headerFooter {
+    background-color: rgb(31, 148, 27);
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.theMainStuff {
+    width: 81%;
+    margin: 15px;
+    padding: 15px;
+}
+
+.sidebar:hover {
+    background-color: rgb(131, 255, 238);
+}
+
+.sidebar {
+    width: 42%;
+    background-color: rgb(102, 102, 102);
+    margin: 15px;
+    padding: 15px;
+}
+
+nav {
+     list-style: none;
+}
+
+nav a:hover {
+    background-color: rgb(200, 255, 2);
+}
+
+nav a {
+    display: inline-block;
+    margin: 15px;
+}
+
+
+#userName:focus {
+    width: 200px;
+}
+
+#userName {
+    width: 100px;
+}
